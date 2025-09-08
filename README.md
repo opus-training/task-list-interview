@@ -57,7 +57,18 @@ This is a React Native task management application built with Expo. The app allo
 - As a user, I can start a task, quit the app, and pick up where I left off
 
 ## Submission Guidelines
-Submit your complete solution by creating a pull request in this repo. Email Jeff when you are done!
+
+**Option 1: Private Repository (Recommended)**
+1. Fork this repository to your personal GitHub account
+2. Make your repository **private**
+3. Complete your solution in your private fork
+4. Add `@jeffreysilver` as a collaborator when ready to submit
+5. Email Jeff with the link to your private repository
+
+
+**What to Include:**
+- Complete working code
+- `SOLUTION.md` documenting your approach and any tradeoffs you encountered.
 
 ## Time Expectation
 
