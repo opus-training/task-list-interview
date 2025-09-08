@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# Task Management App - Senior React Native Interview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This is a React Native task management application built with Expo. The app allows users to complete inspection tasks with various input types (text, numbers, checkboxes, multiple choice) and photo uploads.
 
-1. Install dependencies
+**Your mission:** Optimize the app's performance and add offline-first capabilities.
 
+## Getting Started
+
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. Start the development server:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Open the app in:
+   - iOS Simulator (press `i`)
+   - Android Emulator (press `a`)
+   - Expo Go app on your device (scan QR code)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Current Architecture
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **`app/index.tsx`** - Task list screen
+- **`app/task-form.tsx`** - Task completion form (main focus)
+- **`data/`** - Mock task data (short task: 5 steps, long task: 200 steps)
+- **`types/types.ts`** - TypeScript interfaces
 
-## Get a fresh project
+## Your Tasks
 
-When you're ready, run:
+### 🚀 Task 1: Performance Optimization (Required)
 
-```bash
-npm run reset-project
-```
+**Problem:** The task form becomes extremely slow with the long task (200 steps). Users experience:
+- Slow initial render
+- Laggy scrolling
+- UI freezes during interactions
+- High memory usage
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Your Goal:** Make the form performant for 200+ steps
 
-## Learn more
+**Success Criteria:**
+- Form loads quickly regardless of step count
+- Smooth scrolling through all steps
+- Responsive UI during user interactions
+- Measurable performance improvements
 
-To learn more about developing your project with Expo, look at the following resources:
+### 📱 Task 2: Offline-First Capabilities (Required)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Problem:** Users often work in areas with poor connectivity but need to complete tasks.
 
-## Join the community
+**Your Goal:** Enable full offline functionality
+**User Stories:**
+- As a user, I can start a task, quit the app, and pick up where I left off
 
-Join our community of developers creating universal apps.
+## Submission Guidelines
+Submit your complete solution by creating a pull request in this repo. Email Jeff when you are done!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Time Expectation
+
+This is designed as a 3-4 hour take-home assignment. Focus on:
+- Core functionality over perfect polish
+- Demonstrating senior-level thinking
+- Showing your problem-solving approach
+
+## Questions?
+Reach out to Jeff!
+
+Good luck! 🚀
