@@ -53,6 +53,7 @@ This is a React Native task management application built with Expo. The app allo
 **Problem:** Users often work in areas with poor connectivity but need to complete tasks.
 
 **Your Goal:** Enable full offline functionality
+
 **Success Criteria:**
 - Users can start a task, quit the app, and pick up where they left off
 
