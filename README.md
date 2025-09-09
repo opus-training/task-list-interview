@@ -57,8 +57,6 @@ This is a React Native task management application built with Expo. The app allo
 - Users can start a task, quit the app, and pick up where they left off
 
 ## Submission Guidelines
-
-**Option 1: Private Repository (Recommended)**
 1. Fork this repository to your personal GitHub account
 2. Make your repository **private**
 3. Complete your solution in your private fork
@@ -74,8 +72,7 @@ This is a React Native task management application built with Expo. The app allo
 
 This is designed as a 3-4 hour take-home assignment. Focus on:
 - Core functionality over perfect polish
-- Demonstrating senior-level thinking
-- Showing your problem-solving approach
+- Showing your problem-solving approach either through commit history or in your SOLUTION.md
 
 ## Using AI
 You are allowed and encouraged to use AI to complete this task. We love AI and use it to do a significant chunk of coding at Opus. Please include specific details on how you used AI to complete this task in your SOLUTION.md file. We are curious to know which tools you use, and which models performed better than others.
