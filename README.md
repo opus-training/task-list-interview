@@ -53,8 +53,8 @@ This is a React Native task management application built with Expo. The app allo
 **Problem:** Users often work in areas with poor connectivity but need to complete tasks.
 
 **Your Goal:** Enable full offline functionality
-**User Stories:**
-- As a user, I can start a task, quit the app, and pick up where I left off
+**Success Criteria:**
+- Users can start a task, quit the app, and pick up where they left off
 
 ## Submission Guidelines
 
@@ -76,6 +76,9 @@ This is designed as a 3-4 hour take-home assignment. Focus on:
 - Core functionality over perfect polish
 - Demonstrating senior-level thinking
 - Showing your problem-solving approach
+
+## Using AI
+You are allowed and encouraged to use AI to complete this task. We love AI and use it to do a significant chunk of coding at Opus. Please include specific details on how you used AI to complete this task in your SOLUTION.md file. We are curious to know which tools you use, and which models performed better than others.
 
 ## Questions?
 Reach out to Jeff!
